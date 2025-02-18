@@ -5,12 +5,12 @@ import java.sql.*;
 
 public class DBConnector {
 
-    private final String DB_HOST = "mysql-bdebuser.alwaysdata.net:3306";
-    private final String DB_NAME = "bdebuser_a10bd";
-    private final String DB_USER = "bdebuser_a10user";
-    private final String DB_PASSWORD = "A10BdeB2024";
-    private final String DB_URL = "jdbc:mariadb://" + DB_HOST + "/" +DB_NAME;
-    // ConnectionString: jdbc:mariadb://mysql-bdebuser.alwaysdata.net:3306/bdebuser_a10bd
+  //  private final String DB_HOST = "";
+  //  private final String DB_NAME = "";
+   // private final String DB_USER = "";
+  //  private final String DB_PASSWORD = "";
+  //  private final String DB_URL = "jdbc:mariadb://" + DB_HOST + "/" +DB_NAME;
+    
     private Connection connection = null;
 
     private static DBConnector instance = null;
