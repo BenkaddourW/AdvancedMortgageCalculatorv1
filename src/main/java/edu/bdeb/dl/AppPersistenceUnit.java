@@ -80,9 +80,9 @@ public class PersistenceUnit implements PersistenceUnitInfo {
          Properties props = new Properties();
 
         // connection directives
-        props.setProperty("javax.persistence.jdbc.password", "A10BdeB2024");
-        props.setProperty("javax.persistence.jdbc.url", "jdbc:mariadb://mysql-wafaa.alwaysdata.net:3306/wafaa_a10bd");
-        props.setProperty("javax.persistence.jdbc.user", "wafaa_a10user");
+        props.setProperty("javax.persistence.jdbc.password", "");
+        props.setProperty("javax.persistence.jdbc.url", "");
+        props.setProperty("javax.persistence.jdbc.user", "");
         props.setProperty("javax.persistence.jdbc.driver", "org.mariadb.jdbc.Driver");
         props.setProperty("javax.persistence.schema-generation.database.action", "update");
         props.setProperty("hibernate.dialect", "org.hibernate.dialect.MariaDBDialect");
